@@ -1,0 +1,119 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.cards-perfiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+}
+.cards-perfiles img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  
+  
+}
+.cards-perfiles h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+.cards-perfiles img:hover{
+  opacity: 0.7;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.titulo h2 {
+  color: rgb(202, 194, 194);
+}
+.tarjetas {
+  border: 2px solid black;
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  
+}
+.tarjetas:hover{
+  box-shadow: 5px 5px 15px green;
+}
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 40px;
+}
+.tarjetas img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.cuerpo button {
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  margin-bottom: 5px;
+}
+.jugadores{
+  text-align: center;
+  text-shadow: 4px 4px 15px;
+  margin-top: 50px;
+}
+.titulo{
+  text-align: center;
+  text-shadow: 4px 4px 15px;
+}
+.contenedor-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.botones{
+  margin-right: 50px;
+  gap: 30px;
+  display: flex;
+  
+}
+.botones a{
+  text-decoration: none;
+  color: black;
+
+}
+@media (max-width:600px){
+  .contenedor-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards-perfiles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width: 601), (max-width: 900px){
+  .cards-perfiles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

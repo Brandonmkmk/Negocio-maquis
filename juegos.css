@@ -1,0 +1,39 @@
+.contenedor-juegos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 40px;
+}
+.lista{
+    text-align: center;
+    text-shadow: 4px 4px 15px;
+}
+.cuerpo-juegos{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: auto;
+
+}
+.cuerpo-juegos img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.cuerpo-juegos:hover{
+    box-shadow: 5px 5px 15px green;
+}
+.cuerpo-juegos button{
+    border-radius: 10px;
+    background-color: green;
+    color: #ffffff;
+    text-shadow: 4px 4px solid black;
+    margin-bottom: 5px;
+}
+.contenedor-juegos p{
+    text-align: center;
+}

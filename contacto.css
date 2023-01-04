@@ -1,0 +1,55 @@
+.contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    height: 100vh;
+}
+.formulario{
+    border: 1px solid black;
+    width: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px;
+
+}
+.formulario input{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    border: 3px solid whitesmoke;
+}
+.formulario input:hover{
+border: 2px solid green;
+}
+.formulario textarea{
+    width: 300px;
+    margin-top: 30px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+.formulario textarea:hover{
+    border: 2px solid green;
+}
+.formulario button{
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    width: 50%;
+    background-color: green;
+    color: white;
+}
+.contenedor-contacto h1{
+    text-align: center;
+    text-shadow: 4px 4px 18px black;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
